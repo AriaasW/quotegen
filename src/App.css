@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(32, 22, 22);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.quote {
+  color: gainsboro;
+  font-size: 20px;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  margin-bottom: 10px; 
+}
+
+.author {
+  color: gainsboro;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  margin-left: 20px; 
+}
+
+.select1 {
+  background-color: rgb(32, 22, 22);
+  width: 200px;
+  height: 50px;
+  color: gainsboro;
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+button {
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: 'Georgia', serif;
+  background-color: #b31a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-top: 20px; 
+  color: gainsboro;
+}
+
+button:hover {
+  border-color: darkred;
+  background-color: darkred;
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
+}
